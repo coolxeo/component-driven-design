@@ -1,5 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Doesn´t show the button or rate 1`] = `
+<div
+  className="sc-htoDjs lkdQiJ"
+>
+  <div>
+    <div
+      className="sc-bdVaJa fmTyxS"
+    />
+  </div>
+  <div
+    className="sc-gzVnrw fSNPds"
+  >
+    <div
+      className="sc-bxivhb fxQdBO"
+    >
+      The Water Cure
+    </div>
+    <div
+      className="sc-ifAKCX zuhiC"
+    >
+      Joanne Ramos
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Product renders correctly 1`] = `
 <div
   className="sc-htoDjs lkdQiJ"
@@ -28,11 +54,11 @@ exports[`Product renders correctly 1`] = `
       Joanne Ramos
     </div>
     <div>
-      <button
+      <div
         className="sc-EHOje gefPUv"
       >
         Biography
-      </button>
+      </div>
     </div>
   </div>
 </div>

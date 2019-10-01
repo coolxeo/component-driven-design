@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const ButtonContainer = styled.button`
+const ButtonContainer = styled.div`
   background: #EBF4F7;
   color: #00D3D7;
   border-radius: 18px;

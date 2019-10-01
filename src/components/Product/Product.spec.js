@@ -11,3 +11,12 @@ it('Product renders correctly', () => {
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+it('Doesn´t show the button or rate', () => {
+  const tree = renderer
+    .create(
+      <Product image="/water-cure.jpg" title="The Water Cure" subtitle="Joanne Ramos"/>
+    )
+    .toJSON();
+  expect(tree).toMatchSnapshot();
+});
