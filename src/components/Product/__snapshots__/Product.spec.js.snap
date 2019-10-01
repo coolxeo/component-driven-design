@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders correctly 1`] = `
+<div
+  className="sc-htoDjs lkdQiJ"
+>
+  <div>
+    <div
+      className="sc-bdVaJa fmTyxS"
+    />
+  </div>
+  <div
+    className="sc-gzVnrw fSNPds"
+  >
+    <div
+      className="sc-htpNat kMQpYq"
+    >
+      4.8
+    </div>
+    <div
+      className="sc-bxivhb fxQdBO"
+    >
+      The Water Cure
+    </div>
+    <div
+      className="sc-ifAKCX zuhiC"
+    >
+      Joanne Ramos
+    </div>
+    <div>
+      <button
+        className="sc-EHOje gefPUv"
+      >
+        Biography
+      </button>
+    </div>
+  </div>
+</div>
+`;
