@@ -7,7 +7,7 @@ const Title = styled.div`
   margin-bottom: 0.5em;
 `
 
-function ProductTitle({title}) {
+function AccountTitle({title}) {
   return (
     <Title>
       {title}
@@ -15,4 +15,4 @@ function ProductTitle({title}) {
   )
 }
 
-export default ProductTitle
+export default AccountTitle

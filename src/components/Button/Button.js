@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ButtonContainer = styled.div`
-  background: #EBF4F7;
-  color: #00D3D7;
+  background: #000;
+  color: #FFF;
   border-radius: 18px;
   padding: 1.2em;
   font-size: 1.2em;

@@ -6,7 +6,7 @@ const Subtitle = styled.div`
   font-size: 1.2em;
 `
 
-function ProductSubtitle({subtitle}) {
+function AccountSubtitle({subtitle}) {
   return (
     <Subtitle>
       {subtitle}
@@ -14,4 +14,4 @@ function ProductSubtitle({subtitle}) {
   )
 }
 
-export default ProductSubtitle
+export default AccountSubtitle

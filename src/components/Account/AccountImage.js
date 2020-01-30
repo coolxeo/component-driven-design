@@ -14,7 +14,7 @@ const SmallImage = styled(Image)`
   height: 150px;
 `
 
-function ProductImage({ image, small }) {
+function AccountImage({ image, small }) {
   return (
     <div>
       {!small && <Image image={image} />}
@@ -23,4 +23,4 @@ function ProductImage({ image, small }) {
   )
 }
 
-export default ProductImage
+export default AccountImage

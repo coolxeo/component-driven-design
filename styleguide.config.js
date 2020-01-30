@@ -29,20 +29,20 @@ module.exports = {
   },
   sections: [
     {
-      name: 'Product',
-      components: 'src/components/Product/*.js'
+      name: 'Account',
+      components: 'src/components/Account/*.js'
     },
     {
-      name: 'ProductDetails',
-      components: 'src/components/Product/ProductDetails/*.js'
+      name: 'AccountDetails',
+      components: 'src/components/Account/AccountDetails/*.js'
     },
     {
       name: 'Button',
       components: 'src/components/Button/*.js'
     },
     {
-      name: 'PlayerProduct',
-      components: 'src/components/PlayerProduct/*.js'
+      name: 'PlayerAccount',
+      components: 'src/components/PlayerAccount/*.js'
     },
     {
       name: 'PlayerList',

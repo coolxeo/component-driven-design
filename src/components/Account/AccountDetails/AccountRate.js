@@ -7,10 +7,10 @@ const Rate = styled.div`
   margin-bottom: 1em;
 `
 
-function ProductRate({rate}) {
+function AccountRate({rate}) {
   return (
     <Rate>{rate}</Rate>
   )
 }
 
-export default ProductRate
+export default AccountRate
