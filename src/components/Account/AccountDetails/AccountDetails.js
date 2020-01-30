@@ -1,22 +1,23 @@
 import React from 'react'
 import style from 'styled-components'
 
-import AccountRate from './AccountRate'
+import AccountMoney from './AccountMoney'
 import AccountTitle from './AccountTitle'
 import AccountSubtitle from './AccountSubtitle'
-import Button from '../../Button/Button'
 
 const AccountDetailsContainer = style.div`
-  padding: 30px 20px;
+  flex-direction: column;
+  padding: 0 20px;
+  display: flex;
+  align-items: ${props => props.align};
 `
 
-function AccountDetails({ rate, title, subtitle, buttonText }) {
+function AccountDetails({ amount, title, subtitle, buttonText, align = 'center' }) {
   return (
-    <AccountDetailsContainer>
-      {rate && <AccountRate rate={rate} />}
+    <AccountDetailsContainer align={align}>
       <AccountTitle title={title} />
       <AccountSubtitle subtitle={subtitle} />
-      {buttonText && <Button text={buttonText} />}
+      {amount && <AccountMoney amount={amount} />}
     </AccountDetailsContainer>
   )
 }

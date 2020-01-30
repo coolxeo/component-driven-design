@@ -2,26 +2,35 @@ import React from 'react'
 import styled from 'styled-components'
 
 const ButtonContainer = styled.div`
+  margin-top: 20px;
+  &:first-child {
+    margin-top: 0;
+  }
+`
+
+const ButtonElement = styled.div`
   background: #000;
   color: #FFF;
-  border-radius: 18px;
-  padding: 1.2em;
+  border-radius: 2.2em;
+  padding: 0.8em 1.8em;
   font-size: 1.2em;
   text-align: center;
   width: auto;
+  display: inline-block;
   border: 0;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.33);
 `
-const PrimaryButtonContainer = styled(ButtonContainer)`
-  background: #00D3D7;
-  color: #FFFFFF;
+const PrimaryButtonElement = styled(ButtonElement)`
+  background: #FFF;
+  color: #000;
 `
 
 function Button({text, primary}) {
   return (
-    <div>
-      {!primary && <ButtonContainer>{text}</ButtonContainer>}
-      {primary && <PrimaryButtonContainer>{text}</PrimaryButtonContainer>}
-    </div>
+    <ButtonContainer>
+      {!primary && <ButtonElement>{text}</ButtonElement>}
+      {primary && <PrimaryButtonElement>{text}</PrimaryButtonElement>}
+    </ButtonContainer>
   )
 }
 

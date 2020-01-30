@@ -9,8 +9,7 @@ const Icon = styled.div`
 `
 
 const List = styled.div`
-  background: #232126;
-  color: white;
+  color: black;
   padding: 30px;
   border-radius: 18px;
 `
@@ -23,12 +22,12 @@ const ListItem = styled.div`
   font-size: 1.2em;
 `
 
-function PlayerList({ list }) {
+function AccountList({ list }) {
   return (
     <List>
       {list.map(listItem => (
         <ListItem>
-          <div><Icon>play_arrow</Icon><span>{listItem.title}</span></div>
+          <div><Icon>{listItem.icon}</Icon><span>{listItem.title}</span></div>
           <div>{listItem.time}</div>
         </ListItem>
       ))}
@@ -36,4 +35,4 @@ function PlayerList({ list }) {
   )
 }
 
-export default PlayerList
+export default AccountList

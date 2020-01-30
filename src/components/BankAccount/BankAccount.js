@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import AccountImage from '../Account/AccountImage';
+import AccountFlag from '../Account/AccountFlag';
 import AccountDetails from '../Account/AccountDetails/AccountDetails';
 
 const AccountContainer = styled.div`
@@ -9,13 +9,13 @@ const AccountContainer = styled.div`
   flex-direction: row;
 `
 
-function PlayerAccount({ image, title, subtitle }) {
+function BankAccount({ image, title, subtitle }) {
   return (
     <AccountContainer>
-      <AccountImage image={image} small={true} />
-      <AccountDetails title={title} subtitle={subtitle} />
+      <AccountFlag image={image} small={true} />
+      <AccountDetails title={title} subtitle={subtitle} align='start' />
     </AccountContainer>
   )
 }
 
-export default PlayerAccount
+export default BankAccount

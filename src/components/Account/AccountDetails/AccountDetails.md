@@ -1,5 +1,5 @@
 AccountDetails Example
 
 ```js
-<AccountDetails rate="4.8" title="The Water Cure" subtitle="Joanne Ramos" buttonText="Biography" />
+<AccountDetails amount="1,415.14" title="sync. Account" subtitle="00175579 | 62-22-07" />
 ```

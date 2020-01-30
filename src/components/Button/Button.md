@@ -1,10 +1,10 @@
 Button Examples:
 
 ```js
-<Button text="Hi Malaga" />
+<Button text="Hi MalagaMakers" />
 ```
 
 Primary Button Example:
 ```js
-<Button text="Hi Malaga, I´m primary" primary />
+<Button text="Hi MalagaMakers, I´m primary" primary />
 ```

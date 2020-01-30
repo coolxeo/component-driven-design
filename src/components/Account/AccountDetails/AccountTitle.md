@@ -1,5 +1,5 @@
 AccountTitle example
 
 ```js
-<AccountTitle title="The Water Cure" />
+<AccountTitle title="sync. Account" />
 ```

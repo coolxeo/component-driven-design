@@ -6,16 +6,16 @@ import Account from './Account'
 it('Account renders correctly', () => {
   const tree = renderer
     .create(
-      <Account image="/water-cure.jpg" rate="4.8" title="The Water Cure" subtitle="Joanne Ramos" buttonText="Biography" />
+      <Account image="/gbp.png" amount="1,415.14" title="sync. Account" subtitle="00175579 | 62-22-07" />
     )
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
 
-it('Doesn´t show the button or rate', () => {
+it('Doesn´t show the button or amount', () => {
   const tree = renderer
     .create(
-      <Account image="/water-cure.jpg" title="The Water Cure" subtitle="Joanne Ramos"/>
+      <Account image="/gbp.png" title="sync. Account" subtitle="00175579 | 62-22-07"/>
     )
     .toJSON();
   expect(tree).toMatchSnapshot();

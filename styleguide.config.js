@@ -30,23 +30,34 @@ module.exports = {
   sections: [
     {
       name: 'Account',
-      components: 'src/components/Account/*.js'
+      components: 'src/components/Account/*.js',
+      exampleMode: 'expand',
+      usageMode: 'expand',
     },
     {
-      name: 'AccountDetails',
-      components: 'src/components/Account/AccountDetails/*.js'
+      name: 'BankAccount',
+      components: 'src/components/BankAccount/*.js',
+      exampleMode: 'expand',
+      usageMode: 'expand',
+    },
+    {
+      name: 'AccountList',
+      components: 'src/components/AccountList/*.js',
+      exampleMode: 'expand',
+      usageMode: 'expand',
     },
     {
       name: 'Button',
-      components: 'src/components/Button/*.js'
+      components: 'src/components/Button/*.js',
+      exampleMode: 'expand',
+      usageMode: 'expand',
     },
     {
-      name: 'PlayerAccount',
-      components: 'src/components/PlayerAccount/*.js'
+      name: 'AccountDetails',
+      components: 'src/components/Account/AccountDetails/*.js',
+      exampleMode: 'expand',
+      usageMode: 'expand',
     },
-    {
-      name: 'PlayerList',
-      components: 'src/components/PlayerList/*.js'
-    }
+
   ]
 };

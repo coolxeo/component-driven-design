@@ -2,63 +2,61 @@
 
 exports[`Account renders correctly 1`] = `
 <div
-  className="sc-htoDjs lkdQiJ"
+  className="sc-gzVnrw keaXww"
 >
-  <div>
+  <div
+    className="sc-bdVaJa cRiSdV"
+  >
     <div
-      className="sc-bdVaJa fmTyxS"
+      className="sc-bwzfXH iRxXYd"
     />
   </div>
   <div
-    className="sc-gzVnrw fSNPds"
+    className="sc-bZQynM hGJUYQ"
   >
     <div
-      className="sc-htpNat kMQpYq"
+      className="sc-ifAKCX cugYHd"
     >
-      4.8
+      sync. Account
     </div>
     <div
-      className="sc-bxivhb fxQdBO"
+      className="sc-EHOje hduhHE"
     >
-      The Water Cure
+      00175579 | 62-22-07
     </div>
     <div
-      className="sc-ifAKCX zuhiC"
+      className="sc-bxivhb fzKxNB"
     >
-      Joanne Ramos
-    </div>
-    <div>
-      <div
-        className="sc-EHOje fEesZF"
-      >
-        Biography
-      </div>
+      £
+      1,415.14
     </div>
   </div>
 </div>
 `;
 
-exports[`Doesn´t show the button or rate 1`] = `
+exports[`Doesn´t show the button or amount 1`] = `
 <div
-  className="sc-htoDjs lkdQiJ"
+  className="sc-gzVnrw keaXww"
 >
-  <div>
+  <div
+    className="sc-bdVaJa cRiSdV"
+  >
     <div
-      className="sc-bdVaJa fmTyxS"
+      className="sc-bwzfXH iRxXYd"
     />
   </div>
   <div
-    className="sc-gzVnrw fSNPds"
+    className="sc-bZQynM hGJUYQ"
   >
     <div
-      className="sc-bxivhb fxQdBO"
+      className="sc-ifAKCX cugYHd"
     >
-      The Water Cure
+      sync. Account
     </div>
     <div
-      className="sc-ifAKCX zuhiC"
+      className="sc-EHOje hduhHE"
     >
-      Joanne Ramos
+      00175579 | 62-22-07
     </div>
   </div>
 </div>
