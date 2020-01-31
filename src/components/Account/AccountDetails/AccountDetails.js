@@ -1,5 +1,6 @@
 import React from 'react'
 import style from 'styled-components'
+import PropTypes from 'prop-types';
 
 import AccountMoney from './AccountMoney'
 import AccountTitle from './AccountTitle'
@@ -12,7 +13,7 @@ const AccountDetailsContainer = style.div`
   align-items: ${props => props.align};
 `
 
-function AccountDetails({ amount, title, subtitle, buttonText, align = 'center' }) {
+function AccountDetails({ amount, title, subtitle, align = 'center' }) {
   return (
     <AccountDetailsContainer align={align}>
       <AccountTitle title={title} />
@@ -21,5 +22,13 @@ function AccountDetails({ amount, title, subtitle, buttonText, align = 'center' 
     </AccountDetailsContainer>
   )
 }
+
+AccountDetails.propTypes = {
+  image: PropTypes.string,
+  amount: PropTypes.string,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  align: PropTypes.oneOf(['start', 'end', 'center', 'normal', 'stretch']),
+};
 
 export default AccountDetails

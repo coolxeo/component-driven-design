@@ -8,7 +8,7 @@ exports[`Account renders correctly 1`] = `
     className="sc-bdVaJa cRiSdV"
   >
     <div
-      className="sc-bwzfXH iRxXYd"
+      className="sc-bwzfXH fuEgRM"
     />
   </div>
   <div
@@ -42,7 +42,7 @@ exports[`Doesn´t show the button or amount 1`] = `
     className="sc-bdVaJa cRiSdV"
   >
     <div
-      className="sc-bwzfXH iRxXYd"
+      className="sc-bwzfXH fuEgRM"
     />
   </div>
   <div

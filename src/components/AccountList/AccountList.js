@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import PropTypes from 'prop-types';
 
 const Icon = styled.div`
   font-family: 'Material Icons';
@@ -28,11 +29,22 @@ function AccountList({ list }) {
       {list.map(listItem => (
         <ListItem>
           <div><Icon>{listItem.icon}</Icon><span>{listItem.title}</span></div>
-          <div>{listItem.time}</div>
+          <div>{listItem.amount}</div>
         </ListItem>
       ))}
     </List>
   )
 }
+
+AccountList.propTypes = {
+  align: PropTypes.arrayOf(
+    PropTypes.shape({
+      icon: PropTypes.string,
+      title: PropTypes.string,
+      amount: PropTypes.string,
+    })
+  ),
+};
+
 
 export default AccountList

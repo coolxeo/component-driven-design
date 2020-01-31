@@ -1,7 +1,7 @@
 Account example:
 
 ```js
-<Account image="/gbp.png" amount="1,415.14" title="sync. Account" subtitle="00175579 | 62-22-07" />
+<Account image="/gbp.png" amount="1,415.14" title="sync Account" subtitle="00175579 | 62-22-07" />
 ```
 
 Account example without money & button:

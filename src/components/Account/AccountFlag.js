@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
 const ImageContainer = styled.div`
   display: flex;
@@ -11,8 +12,8 @@ const ImageContainer = styled.div`
 const Image = styled.div`
   background-image: url(${props => props.image});
   background-size: cover;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 18px;
 `;
 
@@ -29,5 +30,10 @@ function AccountFlag({ image, small }) {
     </ImageContainer>
   )
 }
+
+AccountFlag.propTypes = {
+	small: PropTypes.oneOf([true, false]),
+	image: PropTypes.string,
+};
 
 export default AccountFlag

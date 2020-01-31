@@ -29,7 +29,7 @@ Account.propTypes = {
 	title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
   amount: PropTypes.string,
-	image: PropTypes.oneOf(['small', 'normal', 'large']),
+	image: PropTypes.string,
 };
 
 export default Account;
