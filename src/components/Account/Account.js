@@ -16,11 +16,11 @@ const AccountContainer = styled.div`
   background: linear-gradient(180deg, rgba(246,246,247,1) 0%, rgba(255,255,255,1) 100%);
 `
 
-function Account({ image, amount, title, subtitle, buttonText }) {
+function Account({ image, amount, title, subtitle, buttonText, currencySign }) {
   return (
     <AccountContainer>
       <AccountFlag image={image} />
-      <AccountDetails amount={amount} title={title} subtitle={subtitle} buttonText={buttonText} />
+      <AccountDetails amount={amount} title={title} subtitle={subtitle} buttonText={buttonText} currencySign={currencySign} />
     </AccountContainer>
   )
 }

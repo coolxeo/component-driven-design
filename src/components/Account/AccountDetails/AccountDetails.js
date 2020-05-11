@@ -13,12 +13,12 @@ const AccountDetailsContainer = style.div`
   align-items: ${props => props.align};
 `
 
-function AccountDetails({ amount, title, subtitle, align = 'center' }) {
+function AccountDetails({ amount, currencySign, title, subtitle, align = 'center' }) {
   return (
     <AccountDetailsContainer align={align}>
       <AccountTitle title={title} />
       <AccountSubtitle subtitle={subtitle} />
-      {amount && <AccountMoney amount={amount} />}
+      {amount && <AccountMoney amount={amount} currencySign={currencySign} />}
     </AccountDetailsContainer>
   )
 }

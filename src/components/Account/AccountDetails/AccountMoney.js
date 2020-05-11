@@ -8,9 +8,9 @@ const Amount = styled.div`
   font-weight: bold;
 `
 
-function AccountMoney({amount}) {
+function AccountMoney({amount, currencySign = '£'}) {
   return (
-    <Amount>£{amount}</Amount>
+    <Amount>{currencySign}{amount}</Amount>
   )
 }
 
